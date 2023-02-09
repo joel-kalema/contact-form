@@ -201,7 +201,7 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+ **Author1**
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://twitter.com/JoelJklm)
