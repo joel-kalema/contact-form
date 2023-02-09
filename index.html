@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1>Contact me</h1>
+            <div class="text">
+                If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+            </div>
+        </section>
+        <section>
+            <div>
+                <form>
+                    <input
+                        type="text"
+                        name="userName"
+                        class="userName"
+                        id="name"
+                        placeholder="Text Input"
+                        maxlength="30"
+                        required
+                    />
+                    <br>
+                    <input
+                        class="input-mail"
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Enter your e-mail"
+                        required
+                    />
+                    <br>
+                    <textarea
+                        class="textarea"
+                        maxlength="500"
+                        placeholder="Enter text here..."
+                    ></textarea>
+                    <br>
+
+                    <div class="error-message"></div>
+                    <button type="submit" class="button-sub">send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
